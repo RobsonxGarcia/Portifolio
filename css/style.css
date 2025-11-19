@@ -70,7 +70,6 @@
    font-weight: 500;
    
  }
-
  .nav a:hover {
    margin: 0 10;
    color: #ff5023;
@@ -78,3 +77,56 @@
    text-decoration: none;
    font-weight: 500;
  }
+
+ /* hero section*/
+ .hero {
+   padding: 100px 0;
+   height: 90vh ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/hero_img.jpg);
+   background-size: cover;
+   background-position: top;
+   
+ }  
+ .hero-content {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+ }
+ .hero-text {
+   max-width: 900px;
+ }
+ .hero-text h1 {
+   font-size: 60px;
+   line-height: 62px;
+   margin-bottom: 20px;
+
+ }
+
+.hero-text .tags {
+   margin: 50px 0;
+}
+
+.hero-text .tags span {
+   background: #192b40 ;
+   color: #ff5023;
+   padding: 5px 10x;
+   border-radius: 5px;
+   margin-right: 8px;
+   font-size: 16px;
+}
+
+.hero-text .clientes {
+   margin-top: 60px;
+   font-size: 0.9rem;
+   color: #bbb;
+
+
+}
+
+
+
