@@ -86,7 +86,7 @@
    align-items: center;
    justify-content: center;
    color: #fff;
-   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/Robot_img.jpg);
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/hero_img.jpg);
    background-size: cover;
    background-position: top;
    
@@ -145,15 +145,15 @@ section{
 
 
 }
-.sobre_cards, .serviços_grid, .depoimentos_grid, .footer_grid {
+.serviços_grid, .depoimentos_grid, .footer_grid {
    display: grid;
    gap: 20px;
    
 }
 .sobre_cards{
-   width: 40%;
+   width: 35%;
    float: left;
-   padding-right: 30px;
+   padding-right: 5%;
 
 }
 .card{
@@ -161,6 +161,7 @@ section{
    padding: 80px;
    border-radius: 10px;
    transition: 0.3s;
+   margin-bottom: 15px;
 }
 .card:hover{
    background: #1b2d44;
@@ -169,7 +170,33 @@ section{
 .sobre_text{
    width: 60%;
    float: left;
-   padding-left: 30px;
+   padding-left: 15px;
 }
+/*Serviços*/ 
+.serviços {
 
+   width: 100%;
+   height: 100vh;
+   margin-top: 50px;
+   background-color: #07121c;
 
+   }
+ .serviços_grid {
+
+   grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+   margin: 40px 0;
+ }  
+
+ .card_serviços {
+   background: #152236;
+   padding: 40px;
+   border-radius: 10px;
+   transition: 0.3s;
+   margin-bottom: 15px;
+   cursor:pointer;
+
+ }
+ .card_serviços:hover {
+
+   background: #1b2d44;
+ }
