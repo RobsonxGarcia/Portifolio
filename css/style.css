@@ -200,3 +200,38 @@ section{
 
    background: #1b2d44;
  }
+ /*Habilidades*/ 
+ .habilidades {
+   width: 100%;
+   height: 100vh;
+   margin-top: 30px;
+   background-color: #fff;
+
+ }
+.text_dark {
+
+   color: #152236;
+
+}
+
+.col_metricas {
+
+   width: 40%;
+   float: left;
+   padding-right: 70px;
+}
+
+.col_habilidades {
+
+   width: 60%;
+   float: left;
+   padding-left: 50px;
+}
+
+.img_habilidades {
+
+    width: 100%;
+    box-shadow: 5px 10px 10px #cdcdcd;
+    border-radius: 30px;
+
+}
