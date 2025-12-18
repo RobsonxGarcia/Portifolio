@@ -218,14 +218,14 @@ section{
 
    width: 40%;
    float: left;
-   padding-right: 70px;
+   padding-right: 50px;
 }
 
 .col_habilidades {
 
    width: 60%;
    float: left;
-   padding-left: 50px;
+   padding-left: 40px;
 }
 
 .img_habilidades {
@@ -235,3 +235,74 @@ section{
     border-radius: 30px;
 
 }
+
+.line_habilidades {
+
+   width: 100%;
+   display: inline-block;
+   padding: 10px 0;
+
+}
+
+.col_img_habilidades {
+
+   width: 20%;
+   float: left;
+
+}
+
+.col_inf_habilidades {
+
+   width: 80%;
+   float: left;
+
+}
+
+.icon_habiliades {
+
+   font-size: 60px; 
+   color: #ff5023;
+
+}
+
+.metricas {
+
+   width: 100%;
+   display: inline-block;
+   justify-content: space-around;
+   margin: 10px 0;
+   color: #fff;
+   background-color: #152236;
+   border-radius: 30px ;
+   padding: 40px 50px 20px 50px;
+}
+
+.metricas div strong {
+
+   display: block;
+   font-size: 30px;
+   color: #fff;
+
+}
+
+.col_img_habilidades_lista {
+
+   width: 10%;
+   float: left;
+
+}
+
+.col_inf_habilidades_lista {
+
+   width: 90%;
+   float: left;
+
+}
+
+.icon_habiliades_lista {
+
+   font-size: 50px;
+   color: #ff5023;
+
+}
+
